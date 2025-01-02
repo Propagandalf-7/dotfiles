@@ -1,0 +1,7 @@
+# Sensitive files
+secrets.env
+*.key
+
+# System files
+.DS_Store
+Thumbs.db
