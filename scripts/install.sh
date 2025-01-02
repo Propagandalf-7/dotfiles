@@ -35,4 +35,9 @@ for file in "$SYMLINKS_DIR"/*; do
 
   # If it's a directory, decide if you want to symlink the directory as well.
   # For now, let's symlink everything (files or directories).
-  echo -e "${GREEN}Symlinking ${file
+  echo -e "${GREEN}Symlinking ${file} -> ${dest}${RESET}"
+  ln -sfn "$file" "$dest"
+done
+shopt -u dotglob  # reset dotglob to default
+
+echo -e "${CYAN}All symlinks created!${RESET}"

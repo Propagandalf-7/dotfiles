@@ -8,7 +8,7 @@ CYAN="\033[36m"
 BOLD="\033[1m"
 RESET="\033[0m"
 
-REPO_URL="https://github.com/yourusername/dotfiles.git"
+REPO_URL="https://github.com/Propagandalf-7/dotfiles.git"
 DOTFILES_DIR="$HOME/dotfiles"
 
 echo -e "${CYAN}${BOLD}=== Dotfiles Setup ===${RESET}"
